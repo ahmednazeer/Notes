@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="action_delete_all">Delete all notes</string>
+    <string name="action_order_by_date">Sort by date</string>
+    <string name="action_order_by_topic">Sort by topic</string>
+    <string name="title_activity_add__note_">Add_Note_Activity</string>
+    <string name="title_activity_new">NewActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="no_notes">Enter Your First Note</string>
+
+
+    <string name="checked_tag">checked</string>
+    <string name="un_checked_tag">un_checked</string>
+</resources>

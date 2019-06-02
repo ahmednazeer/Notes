@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/addImageButton"
+        android:icon="@mipmap/ic_image"
+        android:title=""
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/saveNoteButton"
+        android:icon="@mipmap/ic_done"
+        android:title=""
+        android:orderInCategory="3"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/takePhotoIB"
+        android:title="Capture Photo"
+        android:icon="@mipmap/ic_photo_cap"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="1"
+        />
+
+</menu>

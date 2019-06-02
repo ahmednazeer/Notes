@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_delete"
+        android:orderInCategory="2"
+        android:icon="@mipmap/ic_delete"
+        app:showAsAction="ifRoom"
+        android:visible="true"
+        android:title=""
+        />
+    <item
+        android:id="@+id/action_edit"
+        android:orderInCategory="3"
+        android:icon="@mipmap/ic_edit"
+        app:showAsAction="ifRoom"
+        android:visible="true"
+        android:title=""
+        />
+
+    <item
+        android:id="@+id/action_edit_image"
+        android:orderInCategory="1"
+        android:icon="@mipmap/ic_image"
+        app:showAsAction="ifRoom"
+        android:visible="false"
+        android:title="" />
+</menu>

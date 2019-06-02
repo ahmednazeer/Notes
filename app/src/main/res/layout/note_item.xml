@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:paddingLeft="5dp"
+
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+    <TextView
+        android:id="@+id/noteContentTV"
+        android:maxLength="50"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textColor="@color/note_content"
+        android:textSize="@dimen/note_content_text_size"
+        />
+    <!--
+    <View
+        android:layout_width="20dp"
+        android:layout_height="match_parent"/>
+        -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+    <TextView
+        android:id="@+id/noteCategoryTV"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:paddingRight="20dp"
+        android:textSize="@dimen/note_date_text_size"
+        android:textColor="@color/accent"
+        />
+        <TextView
+            android:id="@+id/noteDateTV"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/note_date_text_size"
+            />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageButton
+        android:id="@+id/checkIB"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:visibility="invisible"
+        android:layout_marginLeft="5dp"
+        android:src="@mipmap/ic_un_checked"
+        android:background="@null"
+        android:tag="@string/checked_tag"
+        />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#fff4f4"
+        android:layout_margin="2dp"
+        />
+
+
+</LinearLayout>
